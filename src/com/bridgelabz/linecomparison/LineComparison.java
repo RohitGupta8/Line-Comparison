@@ -33,5 +33,12 @@ public class LineComparison {
         return (int) dis;
     }
 
-   
+    public void equal ( double line1, double line2 ) {
+        if (line1 == line2) {
+            System.out.println ( "\nBoth lines are Equal" );
+        } else {
+            System.out.println ("\nLines are Not Equal");
+        }
+    }
+
 }

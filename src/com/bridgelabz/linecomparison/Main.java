@@ -7,5 +7,8 @@ public class Main {
         System.out.println ( "*********************************************\n    Welcome To Line Comparison Computation \n*********************************************" );
         System.out.println ( "\nEnter line 1 coordinates" );
         int line1 = lineComparison.comparison ();
+        System.out.println ( "\nEnter line 2 coordinates" );
+        int line2 = lineComparison.comparison ();
+        lineComparison.equal ( line1,line2 );
     }
 }
