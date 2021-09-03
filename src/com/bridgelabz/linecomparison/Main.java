@@ -10,5 +10,6 @@ public class Main {
         System.out.println ( "\nEnter line 2 coordinates" );
         int line2 = lineComparison.comparison ();
         lineComparison.equal ( line1,line2 );
+        lineComparison.compare ( line1,line2 );
     }
 }
